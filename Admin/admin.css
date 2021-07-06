@@ -1,0 +1,35 @@
+.isi {
+    margin-top: 100px;
+}
+h1, p {
+    text-align: center;
+}
+span {
+    color: rgb(245, 106, 106);
+}
+img {
+    width: 100%;
+    /* position: absolute; */
+}
+.kelas {
+    width: 80px;
+    text-align: center;
+}
+.isi-tabel {
+    height: 300px;
+    overflow: scroll;
+}
+.isi-tabel::-webkit-scrollbar {
+    display: none;
+}
+.edit {
+    outline: none;
+    min-width: 100px;
+}
+div.rounded#rounded {
+    border-radius: 50%;
+}
+.aksi {
+    width: 115px;
+    text-align: center;
+}

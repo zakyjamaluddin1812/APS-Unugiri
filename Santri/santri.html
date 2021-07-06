@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Home | Santri</title>
+    <link rel="stylesheet" href="santri.css">
+
+</head>
+
+<body>
+    <div class="konten">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-4 isi">
+                <h1 data-aos="fade"><span>-</span> Zaky <span>-</span></h1>
+                <dl class="row"  data-aos="fade">
+                    <dt class="col-sm-3">Nama </dt>
+                    <dd class="col-sm-9">Zaky Jamaluddin</dd>
+                    <dt class="col-sm-3">No. Induk</dt>
+                    <dd class="col-sm-9">2402</dd>
+                    <dt class="col-sm-3">Alamat </dt>
+                    <dd class="col-sm-9">Desa Sekaran Kecamatan Balen Kabupaten Bojonegoro</dd>
+
+                    <dt class="col-sm-3">TTL </dt>
+                    <dd class="col-sm-9">Bojonegoro, 18 Desember 2000</dd>
+                    <dt class="col-sm-3">Kelas </dt>
+                    <dd class="col-sm-9">1 - Wustho</dd>
+                    <dt class="col-sm-3">NIK </dt>
+                    <dd class="col-sm-9">3522131812000002</dd>
+                    <dt class="col-sm-3">Nama Wali </dt>
+                    <dd class="col-sm-9"> -</dd>
+                    <dt class="col-sm-3">No. HP Wali </dt>
+                    <dd class="col-sm-9">085730408541</dd>
+                </dl>
+            </div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col-4 isi">
+                <img src="6274.jpg" alt="" data-aos="fade">
+                <h1 data-aos="fade" data-aos-delay="100"><span>-</span> Santri <span>-</span></h1>
+                <div data-aos="fade" data-aos-delay="200" class="d-grid gap-2 d-md-flex justify-content-md-center">
+                    <button type="button" class="btn btn-outline-primary"
+                        onclick="grafik()">Grafik</button>
+                    <button type="button" class="btn btn-outline-warning"
+                        onclick="raport()">Raport</button>
+                    <button type="button" class="btn btn-outline-success"
+                        onclick="profil()">Profil</button>
+                    <button type="button" class="btn btn-outline-secondary"
+                        onclick="logout()">Logout</button>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script src="JS/grafik.js"></script>
+    <script src="JS/profil.js"></script>
+    <script src="JS/raport.js"></script>
+    <script src="../Assets/logout.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
